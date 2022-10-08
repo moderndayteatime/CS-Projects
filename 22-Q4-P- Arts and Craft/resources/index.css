@@ -1,0 +1,55 @@
+/*temp*/
+* {
+    /*border: 1px solid lightblue !important;*/
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica;
+}
+header {
+    font-weight: bold;
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+    /*AARS - Changed noticed in all margins*/
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+header h1 {
+    background-image: url("pattern.jpeg");
+    display: block; /*ADDED AFTER REVIEWING SOLUTION [AARS] - No change, header element is defualt block*/
+}
+
+/*Catergories - General Styles*/
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+p {
+    margin-bottom: 0px;
+}
+.para-blue {
+    color: blue;
+    font-weight: bold;
+}
+/*Catergories - Specific Styles*/
+/*Brushes*/
+.brushes {
+    background-color: mediumspringgreen;
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
